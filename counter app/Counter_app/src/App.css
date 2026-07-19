@@ -1,0 +1,44 @@
+.counter-card {
+  max-width: 320px;
+  margin: 4rem auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.count-value {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.button-row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-increase {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.btn-decrease {
+  background-color: #c62828;
+  color: white;
+}
+
+.btn-reset {
+  background-color: #555;
+  color: white;
+}
